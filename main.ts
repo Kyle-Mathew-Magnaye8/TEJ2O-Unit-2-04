@@ -13,6 +13,7 @@ basic.showIcon(IconNames.Happy)
 basic.pause(1000)
 
 input.onButtonPressed(Button.A, function() {
-  randomNumber = randint(1, 6)
-  basic.showNumber(randomNumber)
+  randomNumber = randint(1, 100)
+    basic.showNumber(input.temperature())
 })
+
