@@ -6,14 +6,14 @@
 */
 
 // our variables
-let currentTemperature: number
+let currentTemperature: 0
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 basic.pause(1000)
 
 input.onButtonPressed(Button.A, function() {
-  currentTemperature = input.temperature()
+  let currentTemperature = randint(1,100)
   basic.showString("The temperature is:")
   basic.showNumber(currentTemperature)
   basic.showString("C")
