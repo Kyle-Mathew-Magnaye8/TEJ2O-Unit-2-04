@@ -15,5 +15,6 @@ basic.pause(1000)
 input.onButtonPressed(Button.A, function() {
   currentTemperature = input.temperature()
   basic.showString("The temperature is:")
+  basic.showNumber(currentTemperature)
   basic.showString("C")
 })
