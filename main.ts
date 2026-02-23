@@ -13,7 +13,7 @@ basic.showIcon(IconNames.Happy)
 basic.pause(1000)
 
 input.onButtonPressed(Button.A, function() {
-  currentTemperature = randint(1, 100)
+  currentTemperature = (1, 100)
   basic.showString("The temperature is:")
   basic.showNumber(input.temperature())
   basic.showString("C")
